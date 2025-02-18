@@ -1,6 +1,6 @@
 <form action="/bitcoins">
 <label for="">How Many Bitcoin Do You Have?</label>
-<input type="text"name="amount"> 
+<input type="text" name="amount" value="<%=params["amount"]%>"> 
 </form>
 
 <p>1 Bitcoin is valued at $<%= @usd_rate %> USD.</p>

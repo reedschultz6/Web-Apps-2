@@ -6,8 +6,11 @@ Rails.application.routes.draw do
 
   resources "companies"
   # get("/companies", {:controller => "companies", :action => "index"})
+  # get("/companies:id", {:controller => "companies", :action => "show"})
+
   resources "contacts"
   # get("/contacts", {:controller => "contacts", :action => "index"})
+
 
   resources "posts"
   # get("/posts", {:controller => "posts", :action => "index"})
